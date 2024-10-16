@@ -1,0 +1,58 @@
+.appContainer {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.3);
+    border-radius: 10px;
+    height: 600px;
+    overflow: auto;
+}
+h1 {
+    align-items: center;
+    font-size:x-large;
+    font-weight: 800;
+    margin: 10px;
+}
+table {
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+th {
+    padding: 5px;
+    text-align: center;
+    font-size:larger;
+    font-weight: 700;
+    border: 2px solid black;
+}
+td {
+    padding: 5px;
+    text-align: center;
+    font-size: large;
+}
+lightning-button {
+    font-size: medium;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header lightning-button {
+    margin-top: 10PX;
+    font-size: large;
+}
+
+.new {
+    margin: 20px;
+}
+
+.viewList {
+    width: 200px;
+    font-size: large;
+    margin: 15px;
+}
+
+h2 {
+    margin: 10px;
+}
